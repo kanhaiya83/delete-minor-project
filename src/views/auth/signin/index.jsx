@@ -123,10 +123,10 @@ const SignIn = ({ history }) => {
                 </Formik>
               </div>
             </div>
-            <div className="auth-divider">
+            {/* <div className="auth-divider">
               <h6>OR</h6>
-            </div>
-            <SocialLogin isLoading={isAuthenticating} />
+            </div> */}
+            {/* <SocialLogin isLoading={isAuthenticating} /> */}
           </div>
           <div className="auth-message">
             <span className="auth-info">
